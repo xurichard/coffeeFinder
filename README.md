@@ -85,7 +85,7 @@ node populate.js
 
 * Run server
 ```
-npm run
+npm run dev
 ```
 or
 ```
