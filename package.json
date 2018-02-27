@@ -1,0 +1,22 @@
+{
+  "name": "coffeefinder",
+  "version": "1.0.0",
+  "description": "Coding challenge for Kinsa Richard Xu",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "author": "Richard Xu",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "csv": "^2.0.0",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.6",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.15.1"
+  }
+}
