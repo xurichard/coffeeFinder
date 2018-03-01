@@ -25,7 +25,8 @@ exports.create_a_shop = function(req, res) {
     new_shop.save(function(err, shop) {
       if (err)
         res.send(err);
-      res.json(shop._id);
+      else
+        res.json(shop._id);
     });
   })
 };
